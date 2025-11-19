@@ -1,0 +1,55 @@
+{
+    "restore_backup_view": {
+        "title": "恢復備份",
+        "not_found_dialog_hint": "未找到恢復文件！",
+        "not_found_dialog_text": "要恢復備份，請將備份文件放入\n{}\n\n請確保備份文件有效，因為它將覆蓋主機分區文件，可能導致您的Switch無法啟動！",
+        "not_found_dialog_btn": "關閉",
+        "warning": "恢復此備份將覆蓋所有文件！\n(您的存檔將保留)\n\n請確保備份文件有效，因為它將覆蓋主機分區文件，可能導致您的Switch無法啟動！",
+        "working": "恢復中...",
+        "complete": "備份已恢復！"
+    },
+    "create_backup_view": {
+        "title": "創建手動備份",
+        "warning": "所有鏈接和取消鏈接操作都會在更改前生成備份！\n\n您應該只在需要手動創建備份時使用此選項。",
+        "working": "備份中...",
+        "complete": "備份已創建！"
+    },
+    "link_accounts_view": {
+        "title": "鏈接選中的賬戶",
+        "warning": "鏈接賬戶將覆蓋所有之前的鏈接。\n(您的存檔將保留)\n\n如果任何選中的賬戶已有NNID鏈接，它將被覆蓋！",
+        "working": "鏈接中...",
+        "complete": "賬戶已鏈接！"
+    },
+    "unlink_accounts_view": {
+        "title": "取消鏈接選中的賬戶",
+        "warning": "取消鏈接將更改用戶賬戶。\n(您的存檔將保留)\n\n如果任何選中的賬戶已有NNID鏈接，它將被刪除！",
+        "working": "取消鏈接中...",
+        "complete": "賬戶已取消鏈接！"
+    },
+    "country_select_view": {
+        "title": "為鏈接賬戶選擇國家"
+    },
+    "account_select_view": {
+        "title": "選擇要鏈接/取消鏈接的賬戶",
+        "select_all": "全選",
+        "unselect_all": "取消全選",
+        "selected_count": "已選擇 {}/{}",
+        "extra_info": "找到 {} 個賬戶{}\n重啟到payload {}",
+        "reboot_payload_disabled": "已禁用",
+        "reboot_payload_inactive": "未激活 (未找到 {})",
+        "reboot_payload_active": "已激活"
+    },
+    "account_list_item": {
+        "linked": "已鏈接",
+        "not_linked": "未鏈接"
+    },
+    "confirm_view": {
+        "continue": "繼續",
+        "back": "返回",
+        "reboot": "重啟",
+        "reboot_to_payload": "重啟到payload"
+    },
+    "errors": {
+        "no_accounts_selected": "未選擇賬戶！"
+    }
+}
